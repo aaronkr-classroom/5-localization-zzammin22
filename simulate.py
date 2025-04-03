@@ -71,6 +71,7 @@ class Simulation(object):
 			color = true_color
 		return color
 
+
 	def show_beliefs(self,past_turn=False):
 		if past_turn:
 			X = deepcopy(self.X)
